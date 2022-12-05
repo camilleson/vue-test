@@ -1,0 +1,59 @@
+#app {
+    font-family: Avenir, Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-align: center;
+    justify-content: center;
+    color: #2c3e50;
+  }
+  
+  body{
+    margin:0;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  div{
+    box-sizing: border-box;
+  }
+  
+  .black-bg{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.5);
+    position: fixed; 
+    padding:20px;
+  }
+  
+  .white-bg{
+    width: 100%; 
+    background: white;
+    border-radius: 8px;
+    padding: 2rem;
+  }
+  .menu{
+    background-color: rgb(46, 97, 46);
+    padding: 15px;
+    border-radius: 5px;
+  }
+  
+  .menu a{
+    color : white;
+    font-weight: 600;
+    padding: 1rem;
+  }
+  
+  .room-img{
+    width:40%;
+    margin-top:40px;
+  }
+  
+  .xx{
+  }
+  
+  .discount{
+    background: #eee;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+  }
